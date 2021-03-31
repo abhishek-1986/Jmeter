@@ -15,17 +15,17 @@
           </elementProp>
           <elementProp name="users" elementType="Argument">
             <stringProp name="Argument.name">users</stringProp>
-            <stringProp name="Argument.value">${__P(users,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(users,)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="iterations" elementType="Argument">
             <stringProp name="Argument.name">iterations</stringProp>
-            <stringProp name="Argument.value">${__P(iterations,100)}</stringProp>
+            <stringProp name="Argument.value">${__P(iterations,)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="testdatafile" elementType="Argument">
             <stringProp name="Argument.name">testdatafile</stringProp>
-            <stringProp name="Argument.value">${__P(testdatafile,/opt//apache-jmeter-5.2.1/bin/Data.csv)}</stringProp>
+            <stringProp name="Argument.value">${__P(testdatafile,)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
