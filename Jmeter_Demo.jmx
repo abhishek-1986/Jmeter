@@ -25,7 +25,7 @@
           </elementProp>
           <elementProp name="testdatafile" elementType="Argument">
             <stringProp name="Argument.name">testdatafile</stringProp>
-            <stringProp name="Argument.value">${__P(testdatafile,C:/D/ci_jmeter.csv)}</stringProp>
+            <stringProp name="Argument.value">${__P(testdatafile,/opt//apache-jmeter-5.2.1/bin/)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
